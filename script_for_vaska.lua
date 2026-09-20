@@ -725,10 +725,10 @@ end)
 
 -- РЕЖИМ EMULATOR (применяется сразу + обновляет поля)
 emuBtn.MouseButton1Click:Connect(function()
-    Config.coord1 = {x = 600, y = 360}
-    Config.coord2 = {x = 600, y = 360}
-    Config.coord3 = {x = 600, y = 360}
-    Config.middleCoord = {x = 600, y = 360}
+    Config.coord1 = {x = 600, y = 350}
+    Config.coord2 = {x = 600, y = 350}
+    Config.coord3 = {x = 600, y = 350}
+    Config.middleCoord = {x = 600, y = 350}
     Config.clicks1 = 3
     Config.clicks2 = 3
     Config.clicks3 = 3
